@@ -5,11 +5,7 @@ Welcome to my coding homework repository for the 100 Devs Bootcamp! Here, you wi
 ## Table of Contents
 
 - [Assignments](#assignments)
-- [Projects](#projects)
 - [About the Repository](#about-the-repository)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [Contact](#contact)
 
 ## Assignments
 
