@@ -6,6 +6,7 @@ Welcome to my coding homework repository for the 100 Devs Bootcamp! Here, you wi
 
 - [Assignments](#assignments)
 - [About the Repository](#about-the-repository)
+- [Contributing](#contributing)
 
 ## Assignments
 
