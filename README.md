@@ -13,7 +13,9 @@ Welcome to my coding homework repository for the 100 Devs Bootcamp! Here, you wi
 This section contains my completed coding assignments. Each assignment/solution is in it's own file with the the assignment prompt written in the comments and the file notes. 
 
 - [Assignment 1: bbc.html](https://github.com/raisa-d/100Devs/blob/624c312b7a346d571428497637d06dc386bf5e45/Assignment%201%3A%20bbc.html)
-- [Assignment 2: Mythical Baddies Meetup Page] (https://github.com/raisa-d/100Devs/tree/624c312b7a346d571428497637d06dc386bf5e45/mythical-baddies-shay-howe) made while following [Shay Howe's HTML & CSS Lessons] (https://learn.shayhowe.com/html-css/)
+- [Assignment 2: Mythical Baddies Meetup Page](https://github.com/raisa-d/100Devs/tree/624c312b7a346d571428497637d06dc386bf5e45/mythical-baddies-shay-howe)
+-   made while following [Shay Howe's HTML & CSS Lessons](https://learn.shayhowe.com/html-css/)
+- 
 
 ## About the Repository
 
