@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <!-- Lato font in 100, 300, and 400 weights -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class = "primary-header container clearfix">
+        <!-- Linking header to index.html. As the header is put on other pages, 
+            it will link back to the main page -->
+        <section class = "container">
+            <h1 class = "logo">
+                <a href="index.html">Mythical Baddies <br> Meetup</a>
+            </h1>
+        </section>
+        <h3 class="tagline">July 1&ndash;2 &mdash; Mua Pel'am, Sulani &#10047;</h3>
+
+        <nav class="nav primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li><!--
+                --><li><a href="speakers.html">Speakers</a></li><!--
+                --><li><a href="schedule.html">Schedule</a></li><!--
+                --><li><a href="venue.html">Venue</a></li><!--
+                --><li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="row-alt">
+        <div class="lead container">
+            <h1>Register</h1>
+            <p>Join us at the Mythical Baddies Meetup and make friends for a lifetime!</p>
+        </div>
+    </section>
+
+    <!-- class attribute row adds white background and vertical padding -->
+    <section class="row">
+        <!-- class attribute grid centers content in middle of page and adds some horizontal padding-->
+        <div class="grid">
+            <section class="col-2-3">
+                <h2>Purchase a Conference Pass</h2>
+                <h5>$20 per Pass</h5>
+                <p>Purchase your Mythical Baddies Meetup pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along! Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
+                <h4>Why Attend?</h4>
+
+                <ul class="why-attend">
+                    <li>Over twenty world-class speakers</li>
+                    <li>One full day of workshops and two full days of presentations</li>
+                    <li>Hosted at The Seashell Center, a historical landmark</li>
+                    <li>The Ampersand Inn has the highest quality service</li>
+                    <li>July in Sulani is simply amazing</li>
+                </ul>
+            </section><!--
+            
+            form will be 1/3 of page
+            --><form class="col-1-3">
+                <fieldset class="register-group">
+                    <label>
+                        Name 
+                        <input type="text" name="name" placeholder="Full name" required>
+                    </label>
+                    <label>
+                        Email 
+                        <input type="email" name="emails" placeholder="name@website.com" required>
+                    </label>
+                    <label>
+                        Number of Passes 
+                        <select name="quantity" required>
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="3">4</option>
+                            <option value="3">5</option>
+                        </select>
+                    </label>
+                    <label>
+                        Comments
+                        <textarea name="comments"></textarea>
+                    </label>
+                </fieldset>
+                <input class="btn btn-default" type="submit" name="submit" value="Purchase">
+            </form>
+        </div>
+    </section>
+
+    <footer class = "primary-footer container clearfix">
+        <small>&copy; Mythical Baddies Meetup</small>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li><!--
+                --><li><a href="speakers.html">Speakers</a></li><!--
+                --><li><a href="schedule.html">Schedule</a></li><!--
+                --><li><a href="venue.html">Venue</a></li><!--
+                --><li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
