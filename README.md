@@ -18,7 +18,7 @@ This section contains my completed coding assignments. Each assignment/solution 
 
 ## About the Repository
 
-This repository serves as a portfolio of my progress and skills gained throughout the 100 Devs Bootcamp. 
+This repository contains all of the code for my 100Devs homework. 
 
 ## Contributing
 
