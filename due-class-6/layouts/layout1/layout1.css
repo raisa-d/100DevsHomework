@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-size:30px;
+}
+
+header,
+footer {
+    border: 2px solid black;
+    height: 100px;
+    clear:both;
+    line-height: 100px;
+}
+
+
+.third {
+    height:200px;
+    width:33.33%;
+    float: left;
+    line-height: 200px;
+    border: 1px solid red;
+}
+
+
+.half {
+    height: 300px;
+    width:50%;
+    float:left;
+    line-height: 300px;
+    border: 1px solid blue;
+}

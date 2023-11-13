@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    text-align:center;
+    font-size: 30px;
+}
+
+/* clearing header and footer after floats to return to normal flow of the page */
+header,
+footer {
+    height:100px;
+    border: 2px solid black;
+    clear:both;
+    line-height: 100px;
+}
+
+/* section that spans whole width of page */
+.whole {
+    height:150px;
+    border: 2px solid red;
+    line-height: 150px;
+}
+
+/* styles shared between one third and two thirds sections */
+.box {
+    height:200px;
+    border: 2px solid blue;
+    float:left;
+    line-height: 200px;
+}
+
+.one-third {
+    width:33.33%;
+}
+
+.two-thirds {
+    width: 66.66%
+}

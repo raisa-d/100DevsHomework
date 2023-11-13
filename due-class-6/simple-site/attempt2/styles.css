@@ -1,0 +1,98 @@
+
+/* 
+=================
+Background
+================= 
+*/
+body {
+    background:rgb(151, 204, 232);
+    color:#fff;
+    border:5px solid rgb(112, 202, 77);
+    margin:20px auto;
+    max-width: 600px;
+    height: 630px;
+}
+
+/* 
+=================
+Header & Footer
+================= 
+*/
+header,
+footer {
+    /* border:2px solid black; */
+    text-align: center;
+    clear:both;
+    margin-top: 40px;
+}
+
+h1 {
+    font-style:italic;
+    font-family:"Times New Roman";
+    font-weight:lighter;
+    word-spacing:3%;
+}
+
+
+/* 
+=================
+Logo
+================= 
+*/
+/* set image height, float it to the right, push it towards paragraphs */
+img {
+    height: 230px;
+    float:right;
+    margin-bottom:20px;
+    margin-top:70px;
+    margin-right:50px;
+    padding-left:40px;
+}
+
+/* 
+=================
+Navigation
+================= 
+*/
+li {
+    display: inline-block;
+    /* border: 1px solid red; */
+    font-weight: bold;
+    font-size:14px;
+}
+
+/* 
+=================
+About Us Section
+================= 
+*/
+.about {
+    margin-left: 50px;
+    margin-right:25px;
+}
+
+h2, nav {
+    font-family:Arial;
+}
+
+.lorem {
+    text-align:justify;
+}
+
+/* 
+=================
+Links
+================= 
+*/
+a {
+    color: rgb(112, 202, 77);
+}
+
+/* 
+=================
+Separators
+================= 
+*/
+li.separator {
+    color:rgb(131, 140, 146);
+}

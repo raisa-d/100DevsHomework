@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+}
+
+header,
+footer {
+    height: 100px;
+    border: 2px solid black;
+    clear:both;
+    line-height:100px;
+}
+
+/* styles shared across all body sections */
+.body {
+    border: 2px solid red;
+    height: 400px;
+    float:left;
+    line-height:400px;
+}
+
+.one-fifth {
+    width: 20%;
+}
+
+.two-fifths {
+    width: 40%;
+}
