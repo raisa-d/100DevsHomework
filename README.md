@@ -15,6 +15,8 @@ This section contains my completed coding assignments. Each assignment/solution 
 - [Assignment 1: bbc.html](https://github.com/raisa-d/100Devs/blob/624c312b7a346d571428497637d06dc386bf5e45/Assignment%201%3A%20bbc.html) - Due Class 4
 - [Assignment 2: Mythical Baddies Meetup Page](https://github.com/raisa-d/100Devs/tree/624c312b7a346d571428497637d06dc386bf5e45/mythical-baddies-shay-howe) made while following [Shay Howe's HTML & CSS Lessons](https://learn.shayhowe.com/html-css/) - Due Class 4
 - [Assignment 3: Create HTML for Khan Academy and Tech Crunch Sites](https://github.com/raisa-d/100Devs/tree/2ffec1c3180bb1a687e14cacca37fb60b6d2de68/due-class-5) - Due Class 5
+- [Assignment 4: Create 3 Layouts Using Floats](https://github.com/raisa-d/100Devs/tree/aae66c2f8eb3e90937c12579f2aee43faa7e962e/due-class-6/layouts) - Due Class 6
+- [Assignment 5: Recreate Simple Site using CSS & HTML](https://github.com/raisa-d/100Devs/tree/aae66c2f8eb3e90937c12579f2aee43faa7e962e/due-class-6/simple-site/attempt2) - Due Class 6
 
 ## About the Repository
 
