@@ -17,6 +17,7 @@ This section contains my completed coding assignments. Each assignment/solution 
 - [Assignment 3: Create HTML for Khan Academy and Tech Crunch Sites](https://github.com/raisa-d/100Devs/tree/2ffec1c3180bb1a687e14cacca37fb60b6d2de68/due-class-5) - Due Class 5
 - [Assignment 4: Create 3 Layouts Using Floats](https://github.com/raisa-d/100Devs/tree/aae66c2f8eb3e90937c12579f2aee43faa7e962e/due-class-6/layouts) - Due Class 6
 - [Assignment 5: Recreate Simple Site using CSS & HTML](https://github.com/raisa-d/100Devs/tree/aae66c2f8eb3e90937c12579f2aee43faa7e962e/due-class-6/simple-site/attempt2) - Due Class 6
+- [Assignment 6: Make a 3 column layout using floats responsive using at least 3 media queries](https://github.com/raisa-d/100Devs/tree/1fcf18233e6f6955fb576c67371130a64ff77838/due-class-8) - Due Class 8
 
 ## About the Repository
 
