@@ -1,0 +1,394 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  font-size:62.5%;
+}
+
+/* setting all text in body to 16px */
+body * {
+  font-size:1.6rem;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* spacing between nav items */
+nav {
+  word-spacing:4rem;
+  margin-left:2%;
+}
+
+/* positioning Book Online button */
+.book {
+  margin-left:5%;
+}
+
+/* making words in header black */
+header a {
+  color:black;
+}
+
+/* removing underlines from links */
+a {
+  text-decoration: none;
+}
+
+/* background for main section */
+main .top {
+  background:linear-gradient(to right, rgb(140,	120,	118), rgb(196,	191,	194));
+}
+
+/* making text color white */
+main .top,
+main a {
+  color:#fff;
+}
+
+/* give header white background */
+header {
+  background:#fff;
+}
+
+/* display everything in nav next to each other,
+positioning main section */
+nav,
+nav li,
+.blonde {
+  display:inline-block;
+}
+
+/* positioning main section */
+.blonde {
+  margin:10%;
+}
+
+/* sizing the h1 */
+.blonde h1 {
+  font-size:5rem;
+}
+
+/* making text uppercase */
+main .top,
+header,
+.momentum h2,
+.momentum a,
+.coupon-two,
+.lookbook h3 {
+  text-transform:uppercase;
+}
+
+.hours {
+  float:right;
+  transform:rotate(90deg);
+  position:absolute;
+  left:80%;
+  bottom:30%;
+}
+
+/* sizing coupon */
+.coupon {
+  width:20%;
+  padding:4% 3%;
+  background:black;
+  margin-left:10%;
+}
+
+/* styling "Our Services" and "Read More" button */
+.blonde a,
+.momentum a,
+.coupon-two a {
+  background:black;
+  position:relative;
+  top:10px;
+  padding:2%;
+  color:#fff;
+}
+
+/* styling that both buttons have in common */
+.coupon a,
+.blonde a {
+  font-size:1.4rem;
+}
+
+/* styling "Book Online" button */
+.coupon a {
+  background:#fff;
+  color:black;
+  padding:5% 4%;
+}
+
+/* sizing 20% bigger than rest */
+.twenty-off,
+.ten-off span {
+  font-size:3rem;
+  font-weight:bold;
+}
+
+/* put sections into 3 rows */
+.bottom > section {
+  display:inline-block;
+  width:33%;
+  text-align:center;
+  margin:5% 0;
+}
+
+/* setting width for paragraphs */
+.bottom > section p {
+  width:55%;
+  margin:0 auto;
+}
+
+/* give gray background to section */
+.momentum {
+  background:rgb(245,	244,	246);
+  padding-top:10px;
+}
+
+/* make each section take up half the page, float left to get 
+them next to each other */
+.momentum > section{
+  width:45%;
+  float:left;
+}
+
+/* sizing video placeholder */
+.momentum img {
+  border:1px dashed black;
+  padding:20%;
+  margin-left:10%;
+}
+
+/* size "Make your own momentum" heading */
+.momentum h2 {
+  font-size:3rem;
+}
+
+/* setting width of paragraph in this section */
+.momentum p {
+  width:80%;
+}
+
+/* adding margins to sections */
+.momentum section {
+  margin: 5% 0 5% 5%;
+}
+
+/* float section to put them next to each other */
+.style > section {
+  float:left;
+  margin:5% 10%;
+}
+
+/* sizing stylist pics */
+.stylists img {
+  padding:60% 50%;
+  background:rgb(233,	233,	236);
+}
+
+/* centering section within larger section */
+.style {
+  width:80%;
+  margin: 0 auto;
+}
+
+/* styling bio on image */
+.bio {
+  background:black;
+  color:white;
+  padding:5%;
+  text-align: center;
+  width:130%;
+}
+
+/* fixing width */
+.bio-first {
+  width:128%;
+}
+
+/* fixing width */
+.bio-last {
+  width:125%;
+}
+
+/* sizing coupon */
+.ten-off {
+  width:80%;
+  margin:5% auto;
+  height:250px;
+  padding:2.5% 0 0 4%;
+  background:rgb(240,	240,	240	);
+}
+
+/* changing padding for Book Appt button */
+.coupon-two a {
+  padding:1%;
+}
+
+.icon {
+  border:1px solid black;
+  border-radius:50%;
+  padding:10% 8%;
+}
+
+/* center aligning lookbook section */
+.lookbook {
+  text-align: center;
+}
+
+/* changing lookbook heading size */
+.lookbook h3 {
+  font-size:2.5rem;
+}
+
+/* sizing lookbook placeholder image */
+.lookbook img {
+  padding:20%;
+}
+
+.lookbook img {
+  border:1px solid black;
+}
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+@media all and (max-width:1320px) {
+  /* stack stylists' bios instead of float */
+  .style > section {
+    float:none;
+    margin:5% auto;
+  }
+
+  /* make width of stylist bios 40% */
+  .sb {
+    width:40%;
+  }
+
+  /* sizing bio to be equal size to image */
+  .bio {
+    margin: 0 auto;
+    width:70%;
+  }
+
+}
+
+@media all and (max-width:1166px) {
+  /* put book online on a new line */
+  .book {
+    display:block;
+    width:100%;
+    text-align: center;
+    padding:10px 0;
+    margin:0;
+    box-shadow: 1px 1px 5px rgb(177, 177, 177);
+  }
+
+  /* changing coupon size */
+  .coupon {
+    width:40%;
+  }
+}
+
+@media all and (max-width:850px) {
+  /* display nav stacked */
+  nav li {
+    display:block;
+    width:100%;
+    text-align: center;
+    padding:10px 0;
+    margin:0;
+  }
+
+  /* make nav take up width of page */
+  nav {
+    width:100%;
+    margin:0;
+  }
+
+  /* removing left padding so can center nav */
+  ul {
+    padding-left:0;
+  }
+
+  /* remove logo from being displayed */
+  .logo {
+    display:none;
+  }
+
+  /* remove box shadow from book online button */
+  .book {
+    box-shadow:none;
+  }
+
+  /* adding shadows to nav options */
+  header li, header > a {
+    box-shadow:1px 1px 5px gray;
+  }
+
+  /* moving hours thing */
+  .hours {
+    position:absolute;
+    transform:rotate(0deg);
+    top:850px;
+  }
+
+}
+
+@media all and (max-width:802px) {
+  /* stack bottom of main section */
+  .bottom > section {
+    width:100%;
+    float:none;
+  }
+}
+
+@media all and (max-width:604px) {
+  /* move up hours */
+  .hours {
+    top:800px;
+  }
+}
+
+@media all and (max-width:380px) {
+  /* remove video */
+  .video,
+  .hours {
+    display:none;
+  }
+
+  /* make text take up whole screen */
+  .momentum > section:first-child,
+  .sb {
+    width:100%;
+  }
+
+  .blonde h1 {
+    font-size:4rem;
+  }
+
+  .coupon {
+    width:80%;
+  }
+
+}

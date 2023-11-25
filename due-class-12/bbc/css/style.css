@@ -1,0 +1,127 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/* body {
+
+} */
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  width: 100%;
+  background:black;
+}
+
+.inner,
+.main,
+header,
+nav li,
+nav img {
+  position:relative;
+}
+
+/* changing color of alt text for BBC logo */
+header img {
+  color:#fff;
+}
+
+/* have nav span most of page */
+nav {
+  width:90%;
+}
+
+/* putting space between nav items */
+nav li {
+  padding-left:2%;
+}
+
+/* positioning nav elements next to each other */
+nav,
+nav li {
+  display: inline-block;
+}
+
+/* moving top section so everything is next to each other */
+.section-1 {
+  width: 100%;
+}
+
+.inner-section {
+  float:right;
+  width:50%;
+  position: relative;
+  bottom:135px;
+  padding-left:200px;
+}
+
+.main {
+  width:50%;
+  margin-left:50px;
+  top: 100px;
+  padding-left:50px;
+}
+
+.bottom {
+  float:left;
+  padding:2%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+nav,
+nav a {
+  color:#fff;
+}
+
+nav a {
+  text-decoration:none;
+}
+
+.section-1,
+.inner-1,
+.inner-3 {
+  float:left;
+  padding-right:50px;
+}
+
+.inner {
+  height:30%;
+  padding:5%;
+  text-align: center;
+  top:50px;
+}
+
+.section-1,
+header,
+.bottom-section,
+.inner {
+  border: 1px solid black;
+}
+
+.bottom-section {
+  float:left;
+  padding-right:50px;
+}

@@ -1,0 +1,346 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size:1.6rem;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* make links black and not underlined */
+a {
+  color:black;
+  text-decoration: none;
+}
+
+/* moving nav options next to each other and giving space between them */
+nav li {
+  display: inline-block;
+  padding-left:3%;
+}
+
+/* make less space around ul */
+nav ul {
+  margin:0;
+  padding-left:50%;
+}
+
+/* move logo to be in line with the nav items */
+.logo {
+  position:relative;
+  top:15px;
+}
+
+/* size main section */
+.main {
+  width:50%;
+  margin: 0 0 5% 2%;
+  padding: 5% 2%;
+  height:500px;
+}
+
+/* make h1 bigger */
+.main h1 {
+  font-size:6rem;
+}
+
+/* sizing search bar */
+.search {
+  width:60%;
+  height:40px;
+  border: 1px solid rgb(220,	221,	233);
+}
+
+/* sizing location button */
+.location {
+  height:40px;
+  width:20%;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  color:#fff;
+}
+
+/* setting background image for main section */
+main,
+header {
+  background:linear-gradient(to left, rgb(254,	151,	179	), #fff);
+}
+
+/* size about section */
+.about section {
+  width:50%;
+  margin: 0 40%;
+  padding-bottom:10%;
+}
+
+/* sizing paragraphs in about section */
+.about p {
+  width:70%;
+}
+
+/* styling buttons orange */
+.btn {
+  background: rgb(255,	136,	0	);
+  border:none;
+}
+
+/* styling discover menu button */
+.discover {
+  padding: 2%;
+  border-radius:5px;
+  color:#fff;
+}
+
+/* centering online order now section */
+.online {
+  padding:5% 0;
+  height:700px;
+  background:rgb(244,	246,	247	);
+}
+
+/* displaying the list items side by side */
+.online li {
+  display:inline-block;
+}
+
+/* sizing placeholder images */
+.online img {
+  border:1px solid black;
+  padding:6% 5%;
+}
+
+/* putting space between list items */
+.online ul {
+  word-spacing:1.5rem;
+  padding-bottom:2%;
+}
+
+/* align text in Opening Hours section */
+.hours {
+  height:650px;
+  padding-top:3%;
+  background:linear-gradient(to top, rgb(233,	228,	222	), #fff);
+}
+
+/* put days/hours side by side */
+.mon,
+.fri {
+  /* border:1px solid green; */
+  display:inline-block;
+  margin-top:2%;
+}
+
+/* space between two blocks displaying hours */
+.mon {
+  margin-right:30%;
+}
+
+/* size + place video placeholder */
+.hours img {
+  display:block;
+  border:1px solid black;
+  width:50%;
+  margin: 2% auto;
+  height:300px;
+}
+
+/* centering these three sections */
+.hours,
+.testimonials,
+.online {
+  text-align:center;
+}
+
+/* changing color of stars */
+.fa-star {
+  color: rgb(255,	192,	8);
+}
+
+/* size and shape placeholder for customer image */
+.headshot {
+  border:1px solid black;
+  padding:5% 3%;
+  border-radius:50%;
+  background:radial-gradient(white, teal, black);
+  margin-bottom:2%;
+}
+
+/* size paragraph and center it */
+.testimonials p {
+  width:40%;
+  margin: 2% auto;
+  line-height: 2.5rem;
+}
+
+/* give padding */
+.testimonials > section {
+  padding:5% 0;
+}
+
+/* move stars down a bit */
+.stars {
+  padding-top:1%;
+}
+
+/* sizing headings for all sections */
+.heading {
+  font-size:4rem;
+}
+
+/* making all taglines orange */
+.tagline {
+  color:rgb(252,	173,	97);
+  font-size:1.8rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* media queries to make this responsive */
+/* anything under 1026 px */
+@media all and (max-width:1026px) {
+  
+  /* move nav over to the left */
+  nav ul {
+    padding-left:20%;
+  }
+
+  /* make main span the whole width of the section */
+  .about section,
+  .main {
+    width:100%;
+  }
+
+  /* sizing about paragraph */
+  .about p {
+    width:85%;
+  }
+
+  /* fix margins on about us section */
+  .about h2,
+  .about .tagline,
+  .about section,
+  .about p,
+  .about a {
+    margin-left: 2%;
+  }
+
+  /* move Discover Menu button down a bit */
+  .about a {
+    position:relative;
+    top:15px;
+  }
+
+  /* make section a bit shorter */
+  .online {
+    height:600px;
+  }
+
+  
+  .hours img {
+    width:90%;
+  }
+
+}
+
+@media all and (max-width:666px) {
+  /* make images take up more space */
+  .online img {
+    padding:10% 20%;
+  }
+
+  /* make section a bit shorter */
+  .online {
+    height:900px;
+  }
+
+  /* change width of testimonials paragraph */
+  .testimonials p {
+    width:90%;
+  }
+}
+
+@media all and (max-width:630px) {
+  /* make online section smaller */
+  .online {
+    height:800px;
+  }
+
+  /* display nav lis stacked */
+  nav li {
+    display: block;
+    line-height: 2.5rem;
+    width:100%;
+    border: 1px solid gray;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+  }
+
+  /* reset padding for ul */
+  nav ul{
+    padding:0;
+  }
+
+  /* remove logo from display */
+  .logo {
+    display:none;
+  }
+
+}
+
+@media all and (max-width:496px) {
+  /* make images stack */
+  .online img {
+    padding:20% 40%;
+  }
+
+  .online {
+    height:2000px;
+  }
+}
+
+@media all and (max-width:450px) {
+  .online {
+    height:1750px;
+  }
+}
+
+@media all and (max-width:364px) {
+  .online {
+    height:1650px;
+  }
+}
+
+@media all and (max-width:314px) {
+  .online {
+    height:1500px;
+  }
+}

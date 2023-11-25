@@ -1,0 +1,198 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+/* set base font size */
+html {
+  font-size:62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* giving header padding */
+header {
+  padding:1px 0;
+}
+
+/* setting backgorund color */
+header,
+main,
+.order-two {
+  background: rgb(21,	29,	46);
+}
+
+/* displaying ul/flex-container as flex */
+.ul-container {
+  justify-content:flex-end;
+  align-items:center;
+}
+
+/* displaying containers as flex */
+.ul-container,
+main,
+.section-two,
+.pictures,
+.section-three {
+  display:flex;
+}
+
+/* making text white */
+a,
+main {
+  color:#fff;
+}
+
+/* removing underlines + making links uppercase */
+a {
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:1.4rem;
+}
+
+/* removing bullet points from lis */
+.ul-container li {
+  list-style:none;
+  margin:0 2%;
+  flex: 1 1 auto;
+}
+
+/* give some space on right for logo */
+.logo {
+  margin-right:1%;
+}
+
+/* styling sign up button */
+.sign-up {
+  background: rgb(57,	63,	78);
+  padding:1%;
+  border-radius:4px;
+  text-align:center;
+}
+
+/* laying out main */
+main {
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  padding-bottom:6%;
+}
+
+/* sizing main section */
+main section {
+  flex-basis:45%;
+}
+
+/* size main heading */
+main h1 {
+  font-size:3.5rem;
+}
+
+/* sizing main paragraph */
+main p {
+  width:75%;
+  padding-bottom:7%;
+  font-size:1.8rem;
+}
+
+/* style order content button */
+.order {
+  background:#fff;
+  color: rgb(21,	29,	46);
+  padding:2%;
+  border-radius:3px;
+  margin-right:5%;
+}
+
+/* sizing section two and three sections */
+.section-two section,
+.section-three section {
+  flex-basis:48%;
+  font-size:1.6rem;
+  justify-content:space-around;
+  padding:4%;
+}
+
+/* add space above second order content button */
+.section-two p + p {
+  margin-bottom:10%;
+}
+
+/* setting up container to hold images */
+.pictures {
+  margin:5%;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+/* sizing image placeholders */
+[class^="picture-"] {
+  border:1px solid black;
+  padding:15% 10%;
+  margin-bottom:5%;
+}
+
+/* styling second order content button */
+.order-two {
+  padding:4%;
+  border-radius:3px;
+}
+
+/* aligning how does it work section */
+.how {
+  text-align:center;
+  margin:5% 0;
+}
+
+.how h4 {
+  font-size:2rem;
+}
+
+.how p {
+  font-size:1.5rem;
+  width:70%;
+  margin: 0 auto;
+}
+
+/* laying out section four so sections are next to 
+each other and aligned */
+.section-four {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  font-size:1.6rem;
+}
+
+.section-four > section:last-child {
+  width:45%;
+  margin:0 4%;
+}
+
+
+/* temporary white border to see */
+/* .ul-container,
+.ul-container li {
+  border:1px solid white;
+} */
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

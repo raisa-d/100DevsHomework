@@ -1,0 +1,238 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background:rgb(245,	249,	252);
+  font-size:1.2rem;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* doing media-first layout, so removing nav from page */
+nav {
+  display:none;
+}
+
+h1,
+h2 {
+  font-size:3.2rem;
+}
+
+p {
+  font-size:1.6rem;
+}
+
+.logo {
+  font-size:2.4rem;
+  margin-left:40%;
+}
+
+header,
+.logo {
+  padding:2%;
+}
+
+/* adding shadow to bottom of header and bottom of each features section */
+header,
+.main-bottom section {
+  box-shadow: 2px 2px 3px rgb(227,	232,	240	);
+}
+
+/* giving side margins to body */
+main,
+main + section {
+  margin:0 10%;
+}
+
+.main-top {
+  padding-top:8%;
+}
+
+/* displaying input forms to span 100% of page */
+form input:first-child,
+.btn-2 {
+  display:block;
+  width:100%;
+  margin-top:3%;
+}
+
+.kitten {
+  width:100%;
+}
+
+/* laying out sections with features 1-4 */
+.main-bottom section {
+  margin-top:5%;
+  text-align: center;
+  padding-bottom:5%;
+}
+
+.main-bottom p {
+  width:50%;
+  margin:0 auto 5% auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/* color of three bar icon */
+.fa-bars {
+  color: #495e70;
+}
+
+.fa-shield-halved {
+  color: #1d2c3b;
+  width:100%;
+}
+
+/* color of buttons */
+.btn {
+  background: rgb(42,	66,	85);
+  border:none;
+  color:#fff;
+  font-size:1.3rem;
+}
+
+form > * {
+  height:20px;
+  border:none;
+  background:rgb(226,	233,	241	);
+}
+
+.last img {
+  width:100%;
+}
+
+/* Styles for Laptop */
+@media all and (min-width:1024px) {
+  nav,
+  li {
+    display:inline-block;
+  }
+
+  nav {
+    width:80%;
+    margin-left:5%;
+  }
+
+  li {
+    margin-left:3%;
+    font-size:1.5rem;
+  }
+
+  li a {
+    color:black;
+  }
+
+  /* laying out and designing button in header */
+  nav > a {
+    float:right;
+    padding:1% 2%;
+    position:relative;
+    bottom:35px;
+  }
+
+  header {
+    height:80px;
+    box-shadow:none;
+  }
+
+  /* removing underlines from links */
+  a {
+    text-decoration:none;
+  }
+
+  /* remove bars icon */
+  .fa-bars {
+    display:none;
+  }
+
+  /* put logo in left-hand side */
+  .logo {
+    margin-left:0;
+  }
+
+  /* .main-top {
+    width:100%;
+  } */
+
+  .main-one,
+  .main-two {
+    width:50%;
+  }
+
+  /* moving buttons next to each other */
+  form input:first-child,
+  .btn-2 {
+    display:inline-block;
+    height:25px;
+  }
+
+  /* sizing input form */
+  form input:first-child {
+    width:50%;
+  }
+
+  /* making button next to input */
+  .btn-2 {
+    width:30%;
+  }
+
+  /* sizing paragraph under form and h1 to be size of button */
+  .main-one p,
+  h1 {
+    width:80%;
+  }
+
+  .main-bottom section {
+    width:25%;
+    float:left;
+    box-shadow:none;
+  }
+
+  /* move sections side by side */
+  .main-one,
+  .main-two {
+    float:left;
+  }
+
+  .kitten{
+    width:80%;
+  }
+
+  .last h2 {
+    width:60%;
+  }
+  
+  .last p {
+    width:70%;
+  }
+  
+  .last img {
+    width:70%;
+  }
+}
