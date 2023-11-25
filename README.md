@@ -18,6 +18,14 @@ This section contains my completed coding assignments for the 100Devs bootcamp/a
 - [Assignment 4: Create 3 Layouts Using Floats](https://github.com/raisa-d/100Devs/tree/aae66c2f8eb3e90937c12579f2aee43faa7e962e/due-class-6/layouts) - Due Class 6
 - [Assignment 5: Recreate Simple Site using CSS & HTML](https://github.com/raisa-d/100Devs/tree/aae66c2f8eb3e90937c12579f2aee43faa7e962e/due-class-6/simple-site/attempt2) - Due Class 6
 - [Assignment 6: Make a 3 column layout using floats responsive using at least 3 media queries](https://github.com/raisa-d/100Devs/tree/1fcf18233e6f6955fb576c67371130a64ff77838/due-class-8) - Due Class 8
+- [Assignment 7: Do html & css layout for BBC website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/bbc) - Due Class 12
+- [Assignment 8: Do html & css layout for Khan Academy website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/khan-academy) - Due Class 12
+- [Assignment 9: Do html & css layout for TechCrunch website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/tech-crunch) - Due Class 12
+- [Assignment 10: Do html & css layout for Level Ground website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/level-ground) - Due Class 12
+- [Assignment 11: Do html & css layout for Restaurant website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/restaurant%20layout) - Due Class 12
+- [Assignment 12: Do html & css layout for Hair Salon website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/salon) - Due Class 12
+- [Assignment 13: Do html & css layout for Source website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/source%20layout) - Due Class 12
+- [Assignment 14: Do pushwork html & css layout](https://github.com/raisa-d/100Devs/tree/main/due-class-12/pushwork%20layout) - Due Class 12
 
 ## About the Repository
 
