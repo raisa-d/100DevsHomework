@@ -1,0 +1,140 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT/STYLE
+/*******************************************/
+html {
+  font-size:62.5%;
+}
+
+/* background image */
+body {
+  background:url(/img/lap.gif) no-repeat;
+  background-size:cover;
+}
+
+/* centering title */
+h1 {
+  text-align: center;
+  color:white;
+  font-size:4rem;
+}
+
+
+/* arranging color options */
+ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
+  /* sizing container (ul) */
+  width:100vw;
+  height:20vw;
+  margin:0;
+}
+
+li {
+  list-style: none;
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  margin:2%;
+  border:6px solid white;
+}
+
+/* 
+==== STYLING TAIL DISPLAY ===
+*/
+.hidden {
+  display:none;
+}
+
+.tails {
+  display:flex;
+}
+
+/* equal sizing for any tail color */
+.tail {
+  height:450px;
+  margin:0 auto;
+}
+
+/* 
+==== STYLING GREEN BUTTON ===
+*/
+#green {
+  background: linear-gradient(to bottom, rgb(238, 255, 245), rgb(45,	153,	104));
+  /* border:1px dotted rgb(45,	153,	104); */
+  align-self:flex-start;
+}
+
+#green:hover {
+  background: linear-gradient(to top, rgb(238, 255, 245), rgb(45,	153,	104));
+}
+
+/* 
+==== STYLING BLUE BUTTON ===
+*/
+
+#blue {
+  background: linear-gradient(to bottom, rgb(196, 236, 239), rgb(7,	80,	109));
+}
+
+#blue:hover {
+  background: linear-gradient(to top, rgb(196, 236, 239), rgb(7,	80,	109));
+}
+
+/* 
+==== STYLING PINK BUTTON ===
+*/
+
+#pink {
+  background: linear-gradient(to bottom, rgb(240, 219, 238), rgb(163,	26,	88));
+  align-self:flex-end;
+}
+
+#pink:hover {
+  background: linear-gradient(to top, rgb(240, 219, 238), rgb(163,	26,	88));
+}
+
+/* 
+==== STYLING PURPLE BUTTON ===
+*/
+
+#purple {
+  background: linear-gradient(to bottom, rgb(239, 225, 255), rgb(60,	17,	77));
+}
+
+#purple:hover {
+  background: linear-gradient(to top, rgb(239, 225, 255), rgb(60,	17,	77));
+}
+
+
+/* 
+==== STYLING YELLOW BUTTON ===
+*/
+
+#yellow {
+  background: linear-gradient(to bottom, rgb(253, 249, 206), rgb(212	162	31));
+  /* border:1px dotted rgb(212	162	31); */
+  align-self:flex-start;
+}
+
+#yellow:hover {
+  background: linear-gradient(to top, rgb(253, 249, 206), rgb(212	162	31));
+}
+
+/* 
+change to mystical font for h1
+change background sea with colors as well to complement the tails
+*/
+
