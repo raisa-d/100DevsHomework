@@ -28,6 +28,7 @@ This section contains my completed coding assignments for the 100Devs bootcamp/a
 - [Assignment 14: Do pushwork html & css layout](https://github.com/raisa-d/100Devs/tree/main/due-class-12/pushwork%20layout) - Due Class 12
 - [Assignments 15-20: Read and do tasks that go with JavaScript.info on function basics, function expressions, arrow functions & do the same for the JS Way Loops](https://github.com/raisa-d/100Devs/tree/250226644576080ccd6f49d7564e722c68b9aad8/due-class-15/js-tasks) - Due Class 15
 - [Assignment 21: Mermaid Tail Picker! (Extend/make your own version of the in-class background picker code)](https://github.com/raisa-d/100Devs/tree/250226644576080ccd6f49d7564e722c68b9aad8/due-class-15/mermaid) - Due Class 15
+- [Assignment 22: Read and do tasks that go with JavaScipt.info array methods page] - Due Class 20
 
 ## About the Repository
 
