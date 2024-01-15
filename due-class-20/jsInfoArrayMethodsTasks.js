@@ -43,10 +43,21 @@ filterRange(list, 18, 21)
 Filter range in place:
 same as task 2 except modify the existing array instead of 
 creating and returning a new one
-
-*** THIS ONE WAS CONFUSING AND HAD TO LOOK AT RESULTS -- COME BACK TO THIS LATER ***
 */
-let filterInPlace = (arr, a, b) => {
+
+// MY ANSWER -- their sandbox tests said this was wrong but it seems to work for me
+let filterRangeInPlace = (arr, min, max) => {
+  // for each number in array, if it is <= min || >= max then remove it from the list using splice
+  arr.forEach((num, i, _) => {
+    if (num < min || num > max) {
+      arr.splice(i, 1);
+    }
+  })
+  return arr
+}
+
+// THEIR ANSWER
+let filterInPlace2 = (arr, a, b) => {
     // loop through array. set i to 0 because indexing. loop thru until you get to arr.length (because last index number will be arr.length - 1), increment by 1
     for (let i = 0; i < arr.length; i++) {
       let value = arr[i]
@@ -61,8 +72,7 @@ let filterInPlace = (arr, a, b) => {
     }
   }
 let numList = [1, 6, 7, 9, 10, 12]
-filterInPlace(numList, 5, 10)
-numList
+filterInPlace2(numList, 5, 10)
 
 /*
 ====== Task 4 ======
@@ -95,21 +105,75 @@ function sortedCopy(arr) {
 /*
 ====== Task 6 ======
 Calculator Extender 
-COME BACK TO THIS ONE
 */
-let calculate = str => {
-    // turn str into array that is number, operator, number
-    str.split(' ')
+class Calculator {
+  
+  // list of math methods calculator has
+  methods = {
+    '-': (a, b) => a - b,
+    '+': (a, b) => a + b
+  };
+  
+  // calculate method
+  calculate = str => {
+    str = str.split(' ')
     
-    // turn numbers from strings into numbers
+    // create variables for each number & the operator
+    let num1 = Number(str[0])
     let operator = str[1]
-    if (operator === '+') {}
-    else if (operator === '-') {}
-    else if (operator === '/') {}
-    else if (operator === '*') {}
+    let num2 = Number(str[2])
+    
+    // error handling. if there is no operator or any
+    // of the inputs are not numbers, return NaN
+    if (!this.methods[operator] || isNaN(num1) || isNaN(num2)) {
+      return NaN;
+    }
+    
+    // index methods with the operator, then pass in num1 
+    // and num2 to those functions
+    return this.methods[operator](num1, num2);
   }
   
-  calculate('9 + 2')
+  // addMethod method
+  addMethod = (name, func) => {
+    this.methods[name] = func;
+  }
+}
+
+// instantiation of calculator objects
+let calc = new Calculator;
+
+calc.addMethod('*', (a, b) => a * b)
+calc.addMethod('/', (a, b) => a / b)
+calc.addMethod('**', (a, b) => a ** b)
+calc.calculate('20 ** 2')
+
+/* 
+ORIGINAL ATTEMPT
+class Calculator {
+  
+  // calculate method
+  calculate = str => {
+    str = str.split(' ')
+    
+    // create variables for each number
+    let num1 = Number(str[0])
+    let num2 = Number(str[2])
+    
+    return str.includes('+') ? num1 + num2 : str.includes('-') ? num1 - num2 : 'Oops, you didn\'t enter a valid equation'
+  }
+  
+  // addMethod method
+  addMethod = (name, func) => name
+
+}
+
+// instantiation of calculator objects
+let calc = new Calculator;
+
+// call calculate method
+calc.calculate('12 + 20')
+*/
 
 /*
 ====== Task 7 ======
@@ -176,8 +240,17 @@ sortByAge(matriarchs)
 /*
 ====== Task 10 ======
 Shuffle an Array
-COME BACK
+** was a bit confused about this. why is the i incremented down (i--)?
 */
+let shuffle = arr => {
+  for (let i = arr.length - 1; i > 0; i--) {
+    // get a random index from 0 to i
+    let j = Math.floor(Math.random() * (i + 1));
+    
+    // swap the places of the two elements
+    [arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+}
 
 /*
 ====== Task 11 ======
@@ -235,14 +308,17 @@ unique(items)
 /*
 ====== Task 13 ======
 Create Keyed Object from Array
-COME BACK
 */
 
-// let group = [
-//   {id: 'luke', name: 'Luke M.', age: 23},
-//   {id: 'gian', name: 'Gian C.', age: 23}
-// ]
+let group = [
+  {id: 'luke', name: 'Luke M.', age: 23},
+  {id: 'gian', name: 'Gian C.', age: 23}
+]
 
-// let groupById = arr => arr.map(person => {person.id: {id: `${person.id}`, name: `${person.name}`, age: person.age}})
+// make the accumulator start as an empty object which we will add to. for each item in the list, the item's id will be set equal to item so it still has all the same information but the key is 
+let groupByID = arr => arr.reduce((obj, item) => {
+  obj[item.id] = item
+  return obj
+}, {})
 
-// let usersByID = groupByID(group)
+groupByID(group)
