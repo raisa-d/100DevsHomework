@@ -29,6 +29,8 @@ This section contains my completed coding assignments for the 100Devs bootcamp/a
 - [Assignments 15-20: Read and do tasks that go with JavaScript.info on function basics, function expressions, arrow functions & do the same for the JS Way Loops](https://github.com/raisa-d/100Devs/tree/250226644576080ccd6f49d7564e722c68b9aad8/due-class-15/js-tasks) - Due Class 15
 - [Assignment 21: Mermaid Tail Picker! (Extend/make your own version of the in-class background picker code)](https://github.com/raisa-d/100Devs/tree/250226644576080ccd6f49d7564e722c68b9aad8/due-class-15/mermaid) - Due Class 15
 - [Assignment 22: Read and do tasks that go with JavaScipt.info array methods page](https://github.com/raisa-d/100DevsHomework/blob/82743757e990b0fff837416b72b62a115cc23cc8/due-class-20/jsInfoArrayMethodsTasks.js) - Due Class 20
+- [Assignment 23: Read and do tasks that go with EloquentJS arrays & objects](https://github.com/raisa-d/100DevsHomework/blob/094a5cc00bbf3161740ccfd669622eac081a8af3/due-class-20/eloquentJSTasks.js) - Due Class 20
+- [Assignment 24: Do Array Cardio Tasks (JavaScript 30 Day 4)](https://github.com/raisa-d/100DevsHomework/blob/094a5cc00bbf3161740ccfd669622eac081a8af3/due-class-20/arrayCardio.js) - Due Class 20
 
 ## About the Repository
 
