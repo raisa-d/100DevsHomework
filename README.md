@@ -40,10 +40,12 @@ Due Class 15:
 - [Assignments 15-20: Read and do tasks that go with JavaScript.info on function basics, function expressions, arrow functions & do the same for the JS Way Loops](https://github.com/raisa-d/100Devs/tree/250226644576080ccd6f49d7564e722c68b9aad8/due-class-15/js-tasks)
 - [Assignment 21: Mermaid Tail Picker! (Extend/make your own version of the in-class background picker code)](https://github.com/raisa-d/100Devs/tree/250226644576080ccd6f49d7564e722c68b9aad8/due-class-15/mermaid)
 
-Due Class 20:
-- [Assignment 22: Read and do tasks that go with JavaScipt.info array methods page](https://github.com/raisa-d/100DevsHomework/blob/82743757e990b0fff837416b72b62a115cc23cc8/due-class-20/jsInfoArrayMethodsTasks.js)
-- [Assignment 23: Read and do tasks that go with EloquentJS arrays & objects](https://github.com/raisa-d/100DevsHomework/blob/094a5cc00bbf3161740ccfd669622eac081a8af3/due-class-20/eloquentJSTasks.js)
-- [Assignment 24: Do Array Cardio Tasks (JavaScript 30 Day 4)](https://github.com/raisa-d/100DevsHomework/blob/094a5cc00bbf3161740ccfd669622eac081a8af3/due-class-20/arrayCardio.js)
+Due Class 22:
+- [Assignment 22: Read and do tasks that go with JavaScipt.info array methods page](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/jsInfoArrayMethodsTasks.js)
+- [Assignment 23: Read and do tasks that go with EloquentJS arrays & objects](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/eloquestJSTaks.js)
+- [Assignment 24: Do Array Cardio Tasks (JavaScript 30 Day 4)](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/arrayCardio.js)
+- [Assignment 25: Do JS.info array reading/tasks](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/jsWayArrays.js)
+- [Assignment 26: Do JS.info object reading/tasks](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/jsWayObjects.js)
 
 ## About the Repository
 
