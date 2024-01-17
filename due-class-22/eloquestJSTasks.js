@@ -76,3 +76,25 @@ COME BACK - so confused about the prompt even lol
 Deep Comparison
 COME BACK - so confused also lol
 */
+let deepEqual = (a, b) => {
+  // check if both items are objects
+  if (typeof a == 'object' && a != null) {
+    if (typeof b == 'object' && b != null) {
+      // if the objects' properties are the same, return true
+      if (Object.keys(a) === Object.keys(b)) return true;
+    }
+    // if they're not objects but are equal
+  } else if (a === b) return true; 
+  // anything else, return false
+  else return false;
+}
+
+let obj = {
+  name: 'object',
+  age: 2
+}
+
+let obj2 = {
+  name: 'object2',
+  age: 2
+}
