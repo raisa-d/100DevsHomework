@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  height:200px;
+}
+
+ol {
+  display: flex;
+  flex-flow: column;
+  align-items:center;
+  /* border:1px solid black; */
+}
+
+#instructions {
+  font-weight:400;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hidden {
+  display:none;
+}
