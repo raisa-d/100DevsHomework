@@ -1,0 +1,119 @@
+/* CSS RESET
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'workbench';
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My Styles */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size:4rem;
+    background:black;
+    color:white;
+}
+
+#calc {
+    /* border: 3px solid #a1c2bd; */
+    border-radius: 15px;
+    height:50rem;
+    width:40rem;
+    padding:2rem;
+    margin: 5rem auto;
+    background:radial-gradient(#e189b1, #603e4e);
+    box-shadow: -15px 10px 0px #5c3748;
+    /* background:#BAE1DB; */
+    /* box-shadow:#86a19d -10px 10px 8px; */
+}
+
+/* styling the calculator screen 
+ADD an inset box shadow instead of a border
+*/
+#screen {
+    box-shadow: inset 0px 0px 10px white;
+    border: 2px solid black;
+    border-radius:5px;
+    height:7rem;
+    margin:3rem;
+    background:white;
+    background:#000;
+}
+
+span {
+    background: linear-gradient(to right, #1A4644, #3ba19c);
+    padding:1rem 2rem;
+    margin-bottom:2rem;
+    border-radius: 25px 5px;
+    min-width:2rem;
+    box-shadow: inset black 3px -3px 5px;
+}
+
+span:hover {
+    background: linear-gradient(to bottom, #1A4644, #4dd0ca);
+}
+
+.row {
+    display:flex;
+    justify-content: space-around;
+}
+
+#buttons {
+    margin-top:6rem;
+}
+
+.workbench1 {
+  font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" -53;
+}

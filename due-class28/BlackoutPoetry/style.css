@@ -1,0 +1,407 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* DEFAULT STYLES */
+html {
+    font-size: 62.5%;
+    height:100%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    background: #2f2235;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* FLEXBOX */
+.flex-container {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+.column {
+    flex-flow: column;
+}
+
+nav {
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    flex: 1;
+}
+
+.search-container, .custom-container, .instructions-container {
+    align-items:center;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section {
+    align-items: center;
+    background:#acbbac;
+}
+
+/* MENU TOGGLE */
+.menu-toggle {
+    cursor:pointer;
+    padding: 1rem 2rem;
+    transform: rotate(90deg);
+    align-self: flex-end;
+}
+
+.menu-toggle.collapsed {
+    transform: rotate(360deg);
+}
+
+/* NAV */
+nav {
+    background: #acbbac;
+    color: #2f2235;
+    font-size: 2.1rem;
+    height:100dvh;
+}
+
+nav.collapsed {
+    display: none;
+}
+
+    /* LOGO */
+    .logo {
+        height:8rem;
+        border-bottom: 1px solid #a6849d;
+    }
+
+    /* LIST ITEMS */
+    .nav-ul li {
+        background: #2f2235;
+        color:#acbbac;
+        font-weight:700;
+        padding: 3dvh 2dvw;
+        margin: 3.5dvh;
+        border-radius: 5px;
+    }
+
+    /* BUTTONS */
+    .btn:hover {
+        background: #a6849d;
+        color: #2f2235;
+        cursor:pointer;
+        font-weight: 700;
+        border-radius: 5px;
+    }
+
+    /* SEARCHBAR */
+    .search-bar input, .search-bar select {
+        height: 3.2rem;
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1.6rem;
+        border: 0;
+    }
+
+    .search-bar select {
+        border-radius: 5px 0 0 5px;
+    }
+
+    .search-bar input {
+        border-radius: 0 5px 5px 0;
+    }
+
+    /* CUSTOM TEXT */
+    #custom {
+        border: 0;
+        width: 100%;
+        height: 15rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+
+    /* ARROWS */
+    .fa-arrow-right {
+        background: #2f2235;
+        border: 1px solid #acbbac;
+        border-radius: 50%;
+        color: #acbbac;
+        margin-top: 1rem;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    .fa-arrow-right:hover {
+        background: #a6849d;
+        border: 1px solid #2f2235;
+        color: #2f2235;
+        cursor: pointer;
+    }
+
+/* MAIN */
+main {
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    align-self:flex-start;
+    background: #2f2235;
+}
+
+/* INSTRUCTIONS */
+.instructions {
+    color:#2f2235;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+
+.fa-circle-info {
+    margin-right: 0.2rem;
+    cursor: pointer;
+}
+
+.fa-circle-info:hover {
+    color:#a6849d;
+}
+
+.instructions-container {
+    background: #a6849d;
+    width: 28rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 15px;
+    font-size: 1.8rem;
+}
+
+.instructions-container ol {
+    text-align: left;
+    padding: 0 2rem;
+}
+
+.instructions-container ol {
+    list-style-type:decimal;
+    width: 90%;
+}
+
+.instructions-container li:not(:last-child), .instructions-container p {
+    margin-bottom:1rem;
+}
+
+.title {
+    font-weight: bold;
+}
+
+/* POEM BOX */
+.poem-box {
+    border: 10px solid #a6849d;
+    background: #fff;
+    width: 50dvw;
+    height: 80dvh;
+    margin: 2rem 0 2rem 0;
+    overflow:scroll;
+    scrollbar-width: thin;
+}
+
+    /* BLACKOUT, RESET, AND EDIT BUTTONS */
+    .poembox-btn {
+        margin: 0 1rem;
+        padding: 1rem;
+        border: 0;
+        font-size: 2rem;
+        border-radius: 5px;
+        background: #acbbac;
+        color: #2f2235;
+        font-weight: 700;
+        border: 2px solid #acbbac;
+    }
+
+    .poembox-btn:hover {
+        color: #acbbac;
+        background: #2f2235;
+        border: 2px solid #acbbac;
+    }
+
+/* FOOTER */
+.copyright {
+    color:#a6849d;
+    justify-self: flex-end;
+}
+
+.fa-brands {
+    margin: 0 1rem 1rem 0;
+    color: #523E5C;
+}
+
+.socials {
+    justify-self: flex-end;
+}
+
+.fa-brands:hover {
+    color: #2f2235;
+}
+
+.copyright {
+    font-size: 1.6rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #acbbac;
+    border-bottom: 2px dotted #acbbac;
+}
+
+.copyright a:hover {
+    color:#a6849d;
+    border-bottom: 2px dotted #a6849d;
+}
+
+/* HIDDEN */
+.hidden {
+    display: none;
+}
+
+/* POEM STYLING */
+#poem {
+    margin: 2rem;
+    font-size: 2.2rem;
+    color: #2f2235;
+}
+
+#poem p {
+    margin-bottom: 0.5rem;
+}
+
+/* HOVERED WORDS */
+.word.hovered {
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.selected-word {
+    border: 2px solid #523E5C;
+    cursor: pointer;
+}
+
+/* BLACKED OUT WORDS */
+.blackedOut {
+    background: black;
+    color: black; 
+}
+
+.selected-during-blackout {
+    background-color: #fff;
+    padding: 0.2rem;
+    border: none;
+}
+
+/* MEDIA QUERIES */
+@media all and (max-width: 740px) {
+    #poem {
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 705px) {
+    .search-bar select {
+        width: 18rem;
+        border-radius: 5px 5px 0 0;
+        background: #a6849d;
+    }
+
+    .search-bar input {
+        border-radius: 0 0 5px 5px;
+        margin: 0;
+        width: 18rem;
+    }
+
+    .poem-box {
+        margin: 2rem;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .instructions-container {
+        width: 18rem;
+        height: 20rem;
+        overflow: scroll;
+        scrollbar-width: thin;
+    }
+}
+
+@media all and (max-width:550px) {
+    .poem-box {
+        width: 75dvw;
+    }
+}
+
+@media all and (max-width:410px) {
+    .instructions-container {
+        width: 17rem;
+    }
+}
+
+@media all and (max-width:400px) {
+    nav {
+        width: 20rem;
+    }
+
+    .logo {
+        height:7rem;
+    }
+
+    .nav-ul li {
+        padding: 2dvh 0.4rem;
+        font-size: 1.6rem;
+    }
+}

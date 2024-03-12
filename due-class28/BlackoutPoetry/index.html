@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create blackout poetry with Blackout Poetry Studio. Unleash your creativity with this fun, inspiring, and powerful tool.">
+    <meta name="keywords" content="blackout poetry, found poetry, creative writing, poetry studio, poetry, blackout poetry maker">
+    <meta name="author" content="Raisa Dorzback">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+    <title>Blackout Poetry Studio</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex-container column">
+    <div class="flex-container">
+        <div class="flex-container column left-section">
+            <div aria-label="Toggle Menu" class="menu-toggle">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <nav class="flex-container column">
+                <img class="logo" src="/images/logo.png" alt="Blackout Poetry Studio">
+                <div class="instructions">
+                    <i class="fa-solid fa-circle-info" id="info"></i>
+                    <span>Instructions</span>
+                </div>
+                <div class="instructions-container flex-container column hidden">
+                    <p class="title">What is Blackout Poetry?</p>
+                    <p>Blackout poetry is made by blacking out words on a pre-existing text so that the only ones which remain visible create a poem of your own.</p>
+                    <p class="title">How Do I Get Started?</p>
+                    <ol>
+                        <li>Get a base poem to work with. Either get a random poem, search for a poem by title or enter custom text.</li>
+                        <li>Click on the words you want to keep in your new poem.</li>
+                        <li>When you are ready, click 'Blackout.'</li>
+                        <li>Save your poem by screenshotting! (In a future version you will be able to save & share directly from here.)</li>
+                    </ol>
+                </div>
+                <ul class="nav-ul">
+                    <li class="btn random">
+                        Get Random Poem
+                    </li>
+                    <li class="flex-container column search-container">
+                        Search For Base Poem
+                        <div class="search-bar">
+                            <select name="search" id="searchType">
+                                <option value="title">Title</option>
+                                <!-- <option value="author">Author</option> -->
+                            </select>
+                            <input id="search" type="text">
+                        </div>
+                        <i class="fa-solid fa-arrow-right search-arrow"></i>
+                    </li>
+                    <li class="flex-container column custom-container">
+                        Enter Custom Text
+                        <textarea name="custom" id="custom" cols="10" rows="5"></textarea>
+                        <i class="fa-solid fa-arrow-right custom-arrow"></i>
+                    </li>
+                </ul>
+                <ul class="flex-container socials">
+                    <li><a target="_blank" href="https://github.com/raisa-d">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                    </a></li>
+                    <li><a target="_blank" href="https://twitter.com/rai__bread">
+                        <i class="fa-brands fa-square-x-twitter fa-2x"></i>
+                    </a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/raisa-d/">
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+        <main class="flex-container column">
+            <div class="poem-box">
+                <div id="poem"></div>
+            </div>
+            <ul class="flex-container">
+                <li class="btn poembox-btn blackout">Blackout</li>
+                <!-- <li class="btn poembox-btn edit">Edit</li> -->
+                <li class="btn poembox-btn reset">Reset</li>
+            </ul>
+            <p class="copyright">
+                &copy; <a target="_blank" href="https://raisadorzback.netlify.app/">Raisa Dorzback</a> 2024
+            </p>
+        </main>
+    </div>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/b06dcc32db.js" crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
