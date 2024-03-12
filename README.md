@@ -27,25 +27,35 @@ Due Class 8:
 - [Assignment 6: Make a 3 column layout using floats responsive using at least 3 media queries](https://github.com/raisa-d/100Devs/tree/1fcf18233e6f6955fb576c67371130a64ff77838/due-class-8)
 
 Due Class 12: 
-- [Assignment 7: Do html & css layout for BBC website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/bbc)
-- [Assignment 8: Do html & css layout for Khan Academy website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/khan-academy)
-- [Assignment 9: Do html & css layout for TechCrunch website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/tech-crunch)
-- [Assignment 10: Do html & css layout for Level Ground website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/level-ground)
-- [Assignment 11: Do html & css layout for Restaurant website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/restaurant%20layout)
-- [Assignment 12: Do html & css layout for Hair Salon website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/salon)
-- [Assignment 13: Do html & css layout for Source website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/source%20layout)
-- [Assignment 14: Do pushwork html & css layout](https://github.com/raisa-d/100Devs/tree/main/due-class-12/pushwork%20layout)
+- [Do html & css layout for BBC website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/bbc)
+- [Do html & css layout for Khan Academy website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/khan-academy)
+- [Do html & css layout for TechCrunch website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/tech-crunch)
+- [Do html & css layout for Level Ground website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/level-ground)
+- [Do html & css layout for Restaurant website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/restaurant%20layout)
+- [Do html & css layout for Hair Salon website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/salon)
+- [Do html & css layout for Source website](https://github.com/raisa-d/100Devs/tree/main/due-class-12/source%20layout)
+- [Do pushwork html & css layout](https://github.com/raisa-d/100Devs/tree/main/due-class-12/pushwork%20layout)
 
 Due Class 15: 
-- [Assignments 15-20: Read and do tasks that go with JavaScript.info on function basics, function expressions, arrow functions & do the same for the JS Way Loops](https://github.com/raisa-d/100Devs/tree/250226644576080ccd6f49d7564e722c68b9aad8/due-class-15/js-tasks)
+- [Read and do tasks that go with JavaScript.info on function basics, function expressions, arrow functions & do the same for the JS Way Loops](https://github.com/raisa-d/100Devs/tree/250226644576080ccd6f49d7564e722c68b9aad8/due-class-15/js-tasks)
 - [Assignment 21: Mermaid Tail Picker! (Extend/make your own version of the in-class background picker code)](https://github.com/raisa-d/100Devs/tree/250226644576080ccd6f49d7564e722c68b9aad8/due-class-15/mermaid)
 
 Due Class 22:
-- [Assignment 22: Read and do tasks that go with JavaScipt.info array methods page](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/jsInfoArrayMethodsTasks.js)
-- [Assignment 23: Read and do tasks that go with EloquentJS arrays & objects](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/eloquestJSTaks.js)
-- [Assignment 24: Do Array Cardio Tasks (JavaScript 30 Day 4)](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/arrayCardio.js)
-- [Assignment 25: Do JS.info array reading/tasks](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/jsWayArrays.js)
-- [Assignment 26: Do JS.info object reading/tasks](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/jsWayObjects.js)
+- [Read and do tasks that go with JavaScipt.info array methods page](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/jsInfoArrayMethodsTasks.js)
+- [Read and do tasks that go with EloquentJS arrays & objects](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/eloquestJSTaks.js)
+- [Do Array Cardio Tasks (JavaScript 30 Day 4)](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/arrayCardio.js)
+- [Do JS.info array reading/tasks](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/jsWayArrays.js)
+- [Do JS.info object reading/tasks](https://github.com/raisa-d/100DevsHomework/blob/36163642c02302a608e8043cce3b3316d44f6cdc/due-class-22/jsWayObjects.js)
+
+Due Class 25:
+- [Object Oriented Code Exercises](https://github.com/raisa-d/100DevsHomework/tree/b788cd63fabff447f6245ac4be09e9070e8b833a/due-class25/oop)
+- [Calculator](https://github.com/raisa-d/100DevsHomework/tree/b788cd63fabff447f6245ac4be09e9070e8b833a/due-class25/100devs-calculator)
+
+Due Class 28:
+- Create three web apps using APIs
+  - [DrinkDex](https://drink-dex.netlify.app/)
+  - [Blackout Poetry Studio](https://blackout-poetry.netlify.app/)
+  - [War Card Game](https://github.com/raisa-d/100DevsHomework/tree/b788cd63fabff447f6245ac4be09e9070e8b833a/due-class28/WAR)
 
 ## About the Repository
 
