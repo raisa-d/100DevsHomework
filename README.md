@@ -10,7 +10,7 @@ Welcome to my coding homework repository for the 100 Devs Bootcamp! Here, you wi
 
 ## Assignments
 
-This section contains my completed coding assignments for the 100Devs bootcamp/agency. Each solution is in it's own file. 
+This section contains completed coding assignments for the 100Devs agency. Each solution is in it's own file. Some assignments, like projects, are in their own repositories instead of listed here.
 
 Due Class 4:
 - [Assignment 1: bbc.html](https://github.com/raisa-d/100Devs/blob/624c312b7a346d571428497637d06dc386bf5e45/Assignment%201%3A%20bbc.html)
