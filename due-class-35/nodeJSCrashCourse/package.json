@@ -1,0 +1,12 @@
+{
+  "name": "nodejscrashcourse",
+  "version": "1.0.0",
+  "description": "Node.js crash course code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env --watch server2.js"
+  },
+  "author": "Raisa Dorzback",
+  "license": "MIT"
+}
